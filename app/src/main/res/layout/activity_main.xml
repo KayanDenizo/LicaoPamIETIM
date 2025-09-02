@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F8F6F9">
+
+    <!-- Nome -->
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ex: Andréia da Silva"
+        android:inputType="textPersonName"
+        android:textColorHint="#8C8C8C" />
+
+    <!-- CPF -->
+    <EditText
+        android:id="@+id/editCpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="000.000.000-00"
+        android:inputType="number"
+        android:textColorHint="#8C8C8C"
+        android:layout_marginTop="16dp" />
+
+    <!-- Data de nascimento -->
+    <EditText
+        android:id="@+id/editData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ex: 09/04/1990"
+        android:inputType="date"
+        android:textColorHint="#8C8C8C"
+        android:layout_marginTop="16dp" />
+
+    <!-- Nome da mãe -->
+    <EditText
+        android:id="@+id/editMae"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ex: Andréia da Silva"
+        android:inputType="textPersonName"
+        android:textColorHint="#8C8C8C"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botão VOLTAR -->
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VOLTAR"
+        android:textAllCaps="true"
+        android:textColor="#FFA000"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="24dp" />
+
+    <!-- Botão CONTINUAR -->
+    <Button
+        android:id="@+id/btnContinuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTINUAR"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFA000"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+</LinearLayout>
